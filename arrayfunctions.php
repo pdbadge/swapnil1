@@ -13,4 +13,8 @@ print_r(count($a));
 echo"<br>";
 echo"<br>";
 print_r(array_chunk($a,2));
+echo "<br>";
+echo "<br>";
+echo array_push($a,36);
+print_r($a);
 ?>
